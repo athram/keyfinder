@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: flex-start;
+            background: #007BFF;
+            padding: 10px;
+        }
+        .navbar button {
+            margin-right: 10px;
+            padding: 8px 15px;
+            border: none;
+            background: white;
+            color: #007BFF;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .about-container {
+            padding: 20px;
+            max-width: 1000px;
+            margin-top: 20px;
+			margin-right: auto;
+			margin-bottom: auto;
+			margin-left: auto;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .about-container h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .about-container p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+		.footer {
+			text-align: center;
+			padding: 10px;
+			background: #007BFF;
+			color: white;
+			margin-top: 280px;
+		}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="window.location.href='index.html'">Home</button>
+        <button onclick="window.location.href='about.html'">About</button>
+        <button onclick="window.location.href='contact.html'">Contact</button>
+        <button onclick="resetTool()">More</button>
+    </div>
+    <div class="about-container">
+        <h2>About the Tool</h2>
+        <p>This JSON Search & Formatter Tool is a web-based utility that allows you to search and format your JSON data effortlessly. It is designed to help developers and data enthusiasts manage and manipulate JSON objects with ease. Whether you need to search for specific keys or format your JSON for better readability, this tool makes it easy and intuitive.</p>
+        <p>With this tool, you can:</p>
+        <ul>
+            <li>Search for specific keys or values in your JSON data.</li>
+            <li>Format your JSON for improved readability.</li>
+            <li>View available and missing keys within your data.</li>
+        </ul>
+    </div>
+	</div>
+    <div class="footer">
+        &copy; 2025 Kamal. All rights reserved.
+    </div>
+</body>
+</html>
